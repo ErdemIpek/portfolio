@@ -5,10 +5,11 @@ import {faBars} from "@fortawesome/free-solid-svg-icons";
 
 const navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-            <div className="container">
-                <a className="navbar-brand" href="#">ERDEM IPEK</a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav className="navbar navbar-expand-lg navbar-light">
+            
+            <a className="navbar-brand" href="#">
+                <img src="https://i.imgur.com/JGJO2Da.png" alt="logo" /></a>
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style={{border:"none",boxShadow:"none",right:25,position: "fixed",}} >
                         <FontAwesomeIcon icon={faBars} style={{color:"#fff"}}/>
                     </button>
 
@@ -28,7 +29,7 @@ const navbar = () => {
                         </li>
                     </ul>
                 </div>
-            </div>
+           
         </nav>
     )
 }
