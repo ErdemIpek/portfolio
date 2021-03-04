@@ -2,12 +2,14 @@ import React from "react";
 import Typed from "react-typed";
 
 
+
+
+
 const Header = () => {
     return (
-        <div className="header-wrapper" >
-            <div className="main-info">
-                <div><br></br><br></br></div>
-                <body style={{textAlign:"center",backgroundColor:"#161616"}}>
+        
+                
+                <text style={{textAlign:"center",}}>
                 <Typed 
                 style={{
                     color:"white",
@@ -15,14 +17,13 @@ const Header = () => {
                     fontSize:40
                     }}
                 className="typed-text"
-                strings ={["HELLO!","SELAM!", "HALLO!","BONJOUR!","HOLA!"]}
+                strings ={["HELLO!","SELAM!", "HALLO!","BONJOUR!","HOLA!","こんにちは！"]}
                 typeSpeed={50}
                 backSpeed={40}
                 loop/>
-                </body>
-            </div>
-        </div>
-        
+              
+                </text>
+                
     )
 }
 
