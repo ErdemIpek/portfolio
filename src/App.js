@@ -159,7 +159,7 @@ function App() {
               How To Contact Me?<br></br>
             </span>
             <text style={{ color: "white", fontSize: "130%" }}>
-              -You can send a mail to this adress : ei.erdemipek@gmail.com
+              -You can send a mail to this adress : ei.erdemipek => gmail
             </text>
             <br></br>
             <text style={{ color: "white", fontSize: "130%" }}>
